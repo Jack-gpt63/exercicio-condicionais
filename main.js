@@ -40,3 +40,40 @@ if (idade < 16) {
         alert("Distância inválida");
     }
 }
+
+// Extra 1
+
+// let age = Number(prompt("Digite sua idade:"))
+// if (isNaN(age)) {
+//     alert("Não é um número válido")
+// } else if (idade < 16) { 
+//     alert("Reprovado na primeira etapa")
+// } else {
+//     alert("Passou na primeira etapa")
+// }
+
+// Extra 2
+
+// let time = Number(prompt("Em quanto tempo você realizou a prova? (em minutos)"))
+// if (isNaN(time) || tempo <= 0) {
+//     alert("Isso não é um tempo válido")
+// } else {
+//     let pace = time / distancia
+//     alert(`Seu pace é: ${pace}`)
+// }
+
+// Extra 3
+
+// if (pace <= 4) {
+// alert("Categoria: Elite");
+// let premiacao = prompt("Você deseja participar da apresentação?").trim().toLowerCase()
+// if (premiacao === "sim") {
+// alert("Você entrou na disputa pela premiação")
+// } else {
+// alert("Você optou por não participar")
+// }
+// } else if (pace <= 6) {
+//  alert("Categoria: Competitivo");
+// } else {
+// alert("Categoria: Amador");
+// }
