@@ -24,7 +24,7 @@ if (idade < 16) {
 
         if (tempo > 0) {
             let pace = tempo / distancia;
-            alert(`Seu pace é: ${pace}`);
+            alert(`Seu pace é: ${pace.toFixed(2)}`);
 
             if (pace <= 4) {
                 alert("Categoria: Elite");
